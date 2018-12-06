@@ -14,3 +14,7 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
 ---
 
 # 语法
+先执行这个：
+npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
+
+再执行 git clone 就 OK 了
