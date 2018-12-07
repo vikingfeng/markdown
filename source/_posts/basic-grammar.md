@@ -1,8 +1,12 @@
 ---
 title: 初学markdown
+categories: markdown知识
+tags: 
+     - markdown
+---
 ---
 
-# 基础语法  
+## 基础语法  
 
 链接 :[Hexo主题](https://hexo.io/themes/)
 加粗 :**Bold**
