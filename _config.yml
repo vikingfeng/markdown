@@ -4,8 +4,8 @@
 
 # Site
 title: Feng
-subtitle:
-description:
+subtitle: 'Feng 博客'
+description: '111'
 keywords:
 author: Vikings Feng
 language:
@@ -52,7 +52,7 @@ highlight:
 index_generator:
   path: ''
   per_page: 12
-  order_by: -date
+  order_by: +date
   
 # Category & Tag
 default_category: uncategorized
@@ -82,3 +82,7 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+search:
+  path: search.xml
+  field: post
