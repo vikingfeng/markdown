@@ -27,7 +27,7 @@ tags:
 在引用的文字前加>即可。引用也可以嵌套，如加两个>>三个>>>
 n个...
 貌似可以一直加下去，但没神马卵用
-![引用](./images/reference.png "引用")
+![引用](/images/reference.png "引用")
 示例：
 >这是引用的内容
 >>这是引用的内容
@@ -37,7 +37,7 @@ n个...
 ## 分割线  
 
 三个或者三个以上的 - 或者 * 都可以。
-![分割线](./images/dividing-line.png "分割线")
+![分割线](/images/dividing-line.png "分割线")
 
 ---
 ----
@@ -50,7 +50,7 @@ n个...
 `![图片alt](图片地址 ''图片title'')`
 `图片alt就是显示在图片下面的文字，相当于对图片内容的解释。`
 `图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加`
-eg: ![哆啦A梦](./images/doraemon.jpg "哆啦A梦")
+eg: ![哆啦A梦](/images/doraemon.jpg "哆啦A梦")
 
 ## 超链接
 
@@ -61,7 +61,7 @@ eg:
 
 ## 注释
 
-![有序列表](./images/comment.png "有序列表")
+![有序列表](/images/comment.png "有序列表")
 
 1. html标签（你如果看不到下面的注释说明已经成功注释）  
 
