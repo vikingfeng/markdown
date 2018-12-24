@@ -74,6 +74,6 @@ position的默认值，一般不设置position属性时，会按照正常的文�
 * absolute:定位点将忽略padding，将会从父对象的padding开始的地方(即只从padding的左上角开始)进行定位
 
 
-**Position-实践踩坑**
+**Position**
 
 ![absolute](/images/position/absolute.png "absolute")

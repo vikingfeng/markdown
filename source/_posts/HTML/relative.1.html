@@ -8,7 +8,9 @@
 </head>
 <body>
     <div class="parent">
-        <div class="square1 a skyblue">square1</div>
+        <div class="square1 a skyblue">
+            <div class="f">1211</div>
+        </div>
         <div class="square2">
             <div class="b red">top:0;left:0;</div>
             <div class="c skyblue">什么都不设</div>
@@ -20,45 +22,33 @@
         <div class="square4 skyblue">
             <div class="d">居中</div>
         </div>
-        <div class="square4 skyblue">
-            <div class="g">111</div>
-            <div class="h">222</div>
-        </div>
    </div>
    <style>
-       .g{
-           position: absolute;
-           width: 150px;
-           height: 150px;
-           border:1px solid red;
-           background: yellow;
-       }
-       .h{
-           /* position: relative; */
-           float: left;
-           width: 150px;
-           height: 150px;
-           border:1px solid gray;
-           /* margin-top: -150px; */
-           background: pink;
-       }
        .square1{
-           position: relative;
+           /* position: relative; */
+           position: absolute;
            border:5px solid green;
            margin:20px;
            padding:10px;
-           top:10%;
+           top:10px;
+           left: 100px;
 
        }
+       .f{
+           width: 50px;
+           height: 50px;
+           border: 1px solid red;
+           position: absolute;
+           top:10px;
+           left: 50px;
+       }
        .square2{
-           /* box-sizing: border-box; */
-           box-sizing: content-box;
            position: relative;
            width: 300px;
            height: 300px;
            margin: 10px auto;
            padding:40px;
-           border:10px solid yellow;
+           border:1px solid red;
            /* top: 100px;
            left: 100px; */
        }
@@ -93,7 +83,7 @@
            width: 100px;
            height: 100px;
            position: absolute;
-           border:5px solid green;
+           /* border:5px solid green; */
            /* margin:20px; */
            /* padding:10px; */
            top:0;
